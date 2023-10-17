@@ -1,6 +1,6 @@
 import React from 'react';
 import profileImg from '../../../assets/sayem.jpg'
-import ExamplePdf from '../../../assets/jh-sayem.pdf'
+import ExamplePdf from '../../../assets/Jahid-Hossain-Sayem-CV.pdf'
 import { BiDownload } from "react-icons/bi";
 import { FaFacebookF, FaGithub, FaLinkedinIn, FaPhone, FaTwitter } from "react-icons/fa";
 import { MdEmail, MdLocationOn } from "react-icons/md";
@@ -15,19 +15,19 @@ const Profile = () => {
                 </figure>
                 <div className="card-body items-center text-center">
                     <h2 className="card-title text-3xl">Jahid Hossain Sayem</h2>
-                    <p className='text-center text-slate-400 text-sm'>FullStack Developer</p>
+                    <p className='text-center text-slate-400 text-xl'>MERN Stack Developer</p>
                     <div className='grid grid-cols-4 gap-2 mt-3'>
                         <button className="btn btn-square">
-                            <FaFacebookF className="text-[#1877F2] text-2xl" ></FaFacebookF>
+                            <a href="https://www.facebook.com/jh.sayem.37?mibextid=ZbWKwL" target='blank'><FaFacebookF className="text-[#1877F2] text-2xl" ></FaFacebookF></a>
                         </button>
                         <button className="btn btn-square">
-                            <FaLinkedinIn className="text-[#0077B5] text-2xl" ></FaLinkedinIn>
+                            <a href="https://www.linkedin.com/in/jahid-hossain-sayem-4a6209223/" target='blank'><FaLinkedinIn className="text-[#0077B5] text-2xl" ></FaLinkedinIn></a>
                         </button>
                         <button className="btn btn-square">
-                            <FaTwitter className="text-[#1DA1F2] text-2xl" ></FaTwitter>
+                            <a href="https://twitter.com/jahid_sayem" target='blank'><FaTwitter className="text-[#1DA1F2] text-2xl" ></FaTwitter></a>
                         </button>
                         <button className="btn btn-square">
-                            <FaGithub className="text-[#0B0909] text-2xl" ></FaGithub>
+                            <a href="https://github.com/jhsayem021" target='blank'><FaGithub className="text-[#0B0909] text-2xl" ></FaGithub></a>
                         </button>
 
                     </div>
@@ -42,7 +42,7 @@ const Profile = () => {
                                     </div>
                                     <div className="w-full flex-auto ">
                                         <p className="text-left text-xs leading-6 text-gray-900">Phone</p>
-                                        <p className="mt-1 truncate text-sm font-bold leading-5 text-gray-500">+254723909353</p>
+                                        <p className="mt-1 truncate text-sm font-bold leading-5 text-gray-500">+8801601215306</p>
                                     </div>
                                 </div>
 
@@ -54,7 +54,7 @@ const Profile = () => {
                                     </div>
                                     <div className="w-full flex-auto ">
                                         <p className="text-left text-xs leading-6 text-gray-900">Email</p>
-                                        <p className="mt-1 truncate text-sm font-bold leading-5 text-gray-500">beatricewambuimbugua@gmail.com</p>
+                                        <p className="mt-1 truncate text-sm font-bold leading-5 text-gray-500">sayemmetro320@gmail.com</p>
                                     </div>
                                 </div>
 
@@ -66,7 +66,7 @@ const Profile = () => {
                                     </div>
                                     <div className="w-full flex-auto ">
                                         <p className="text-left text-xs leading-6 text-gray-900">Location</p>
-                                        <p className="mt-1 truncate text-sm font-bold leading-5 text-gray-500">Nairobi, Kenya</p>
+                                        <p className="mt-1 truncate text-sm font-bold leading-5 text-gray-500">Sylhet-3100, Bangladesh</p>
                                     </div>
                                 </div>
 
