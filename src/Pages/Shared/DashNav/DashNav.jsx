@@ -6,7 +6,8 @@ import { BiSolidContact } from "react-icons/bi";
 const DashNav = () => {
     return (
         <div>
-             <div className="w-full flex justify-end navbar bg-[#F2F5F9] mt-14">
+    
+             <div className="w-full hidden lg:flex justify-end navbar bg-[#F2F5F9] mt-14 ">
                                 <div className="flex-none lg:hidden">
                                     
                                 </div>

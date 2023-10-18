@@ -2,9 +2,9 @@ import React from 'react';
 import { RiGraduationCapLine } from "react-icons/ri";
 const Resume = () => {
     return (
-        <div className=' '>
-           <h1 className="text-6xl font-semibold mt-5 mx-10">Resume  </h1> 
-           <div className='grid grid-cols-2 gap-10 mx-10'>
+        <div className='lg:h-screen '>
+           <h1 className="lg:text-6xl text-4xl font-semibold mt-5 lg:mx-10 ms-5">Resume  </h1> 
+           <div className='grid lg:grid-cols-2 gap-10 lg:mx-10 mx-5'>
             <div className='py-4'>
                 <h1 className='flex items-center text-2xl my-5'><RiGraduationCapLine className='me-3 text-red-500'/> Education</h1>
                 <div className='bg-[#ffedd5] py-10 px-2 rounded-xl'>
@@ -29,7 +29,7 @@ const Resume = () => {
             </div>
            </div>
            
-           <div className='grid grid-cols-2 gap-2  h-fit  bg-[#F8FBFB]  rounded-b-2xl '>
+           <div className='grid lg:grid-cols-2 gap-2  h-fit  bg-[#F8FBFB]  rounded-b-2xl '>
             <div className='py-4 mx-10'>
                 <h1 className=' text-2xl my-5 font-semibold'> Work Skills</h1>
                 <div className=' pt-5  flex flex-wrap  gap-5 text-center'>

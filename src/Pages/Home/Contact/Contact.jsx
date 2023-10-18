@@ -3,13 +3,13 @@ import { PiPhoneCallFill } from "react-icons/pi";
 import { MdEmail } from "react-icons/md";
 const Contact = () => {
     return (
-        <div className='mx-10 '>
-            <h1 className="text-6xl font-semibold my-5">Contact</h1>
+        <div className='lg:mx-10 lg:px-0 px-10 lg:pb-5 pb-5 lg:h-screen'>
+            <h1 className="lg:text-6xl text-4xl font-semibold my-5">Contact</h1>
 
 
-            <div className='grid grid-cols-2 gap-4 mt-5'>
-                <div className="card w-96 bg-[#FFEBD1] shadow-xl">
-                    <div className=" flex p-10 items-start ">
+            <div className='grid lg:grid-cols-2 gap-4 mt-5'>
+                <div className="card lg:w-96 bg-[#FFEBD1] shadow-xl">
+                    <div className=" flex lg:p-10 p-5 items-start ">
                         <div><PiPhoneCallFill className='text-red-600 text-2xl m-1' /></div>
                         <div><h2 className="card-title text-2xl"> Phone:</h2>
                             <ul>
@@ -22,8 +22,8 @@ const Contact = () => {
 
                     </div>
                 </div>
-                <div className="card w-96 bg-[#F0F3F7] shadow-xl">
-                    <div className=" flex p-10 items-start ">
+                <div className="card lg:w-96 bg-[#F0F3F7] shadow-xl">
+                    <div className=" flex lg:p-10 p-5 items-start ">
                         <div><MdEmail className='text-red-600 text-2xl m-1' /></div>
                         <div><h2 className="card-title text-2xl"> Email:</h2>
                             <ul>
@@ -42,8 +42,8 @@ const Contact = () => {
             <div className="    mt-5 ">
 
             
-                <form action="https://formsubmit.co/sayemmetro320@gmail.com" method="POST" className=" bg-[#F0F3F7] shadow-xl rounded-2xl p-10">
-                    <div className="grid grid-cols-1 sm:grid-cols-2">
+                <form action="https://formsubmit.co/sayemmetro320@gmail.com" target='blank' method="POST" className=" bg-[#F0F3F7] shadow-xl rounded-2xl lg:p-10 p-3">
+                    <div className="grid grid-cols-1 ">
                         <div>
                             <label htmlFor="name" className=" text-xl font-semibold text-gray-900">
                                 Name

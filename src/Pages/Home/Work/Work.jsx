@@ -7,10 +7,10 @@ import projectimg4 from '../../../assets/doctors-portal.png'
 
 const Work = () => {
     return (
-        <div>
-            <h1 className="text-6xl font-semibold mt-5 mx-10">Portfolio  </h1>
-            <div className=' flex flex-wrap gap-5 mx-8 mt-10 '>
-                <div className="card w-96 bg-[#FFE3BF] shadow-xl">
+        <div className="lg:h-screen" >
+            <h1 className="lg:text-6xl text-4xl font-semibold mt-5 lg:ms-10 ms-5 ">Portfolio  </h1>
+            <div className=' grid lg:grid-cols-2 grid-cols-1 lg:gap-5 gap-5 p-3 lg:mx-8 mt-10 '>
+                <div className="card lg:96 bg-[#FFE3BF] shadow-xl">
                     <a target="blank" href="https://food-mania-sylhet.web.app/">
                         <figure className="px-3 pt-3">
                             <img src={projectimg1} className="rounded-xl" />
@@ -24,7 +24,7 @@ const Work = () => {
                     </a>
 
                 </div>
-                <div className="card w-96 bg-[#FFE3BF] shadow-xl">
+                <div className="card lg:96 bg-[#FFE3BF] shadow-xl">
                     <a target="blank" href="https://tourism-planner-231.web.app/">
                         <figure className="px-3 pt-3">
                             <img src={projectimg2} className="rounded-xl" />
@@ -39,7 +39,7 @@ const Work = () => {
 
                 </div>
 
-                <div className="card w-96 bg-[#FFE3BF] shadow-xl">
+                <div className="card lg:96 bg-[#FFE3BF] shadow-xl">
                     <a target="blank" href="https://new-doctors.web.app/">
                         <figure className="px-3 pt-3">
                             <img src={projectimg4} className="rounded-xl" />
@@ -54,7 +54,7 @@ const Work = () => {
 
                 </div>
 
-                <div className="card w-96 bg-[#FFE3BF] shadow-xl">
+                <div className="card lg:96 bg-[#FFE3BF] shadow-xl">
                     <a target="blank" href="https://jhsayem021.github.io/JhonAcademy1/John-25.html">
                         <figure className="px-3 pt-3">
                             <img src={projectimg3} className="rounded-xl" />
