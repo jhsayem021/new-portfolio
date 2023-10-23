@@ -16,7 +16,7 @@ const Home = () => {
             <div className='grid lg:grid-cols-2 grid-cols-1 gap-4'>
                 <div className="card lg:w-96 bg-[#FFEBD1] shadow-xl">
                     <div className="card-body">
-                        <h2 className="card-title text-[#000000] text-[#000000]"><BiCodeAlt className='text-red-600 ' /> Frontend Development</h2>
+                        <h2 className="card-title text-[#000000] "><BiCodeAlt className='text-red-600 ' /> Frontend Development</h2>
                         <p className='text-[#000000]'>I'm an accomplished frontend developer proficient in HTML, CSS, JavaScript, and React,
                              dedicated to creating engaging and responsive web interfaces.
                         </p>
