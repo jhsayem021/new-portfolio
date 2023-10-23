@@ -18,16 +18,16 @@ const DashNav = () => {
                                         <li>
                                             <Link className=" hover:bg-gradient-to-r from-[#EC1B09] to-[#FF9C1A] hover:text-white bg-[#E1E8EF]" to="/home" >
                                                 <div className=" px-3 py-1" >
-                                                    <div className="flex justify-center"><FiHome className="text-2xl" /></div> 
-                                                    <div className="text-sm">Home</div>
+                                                    <div className="flex justify-center"><FiHome className="text-2xl text-black " /></div> 
+                                                    <div className="text-sm text-black">Home</div>
                                                 </div>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link className=" hover:bg-gradient-to-r from-[#EC1B09] to-[#FF9C1A] hover:text-white bg-[#E1E8EF]" to="/resume" >
                                                 <div className=" px-3 py-1" >
-                                                    <div className="flex justify-center"><FiFileText className="text-2xl" /></div> 
-                                                    <div className="text-sm">
+                                                    <div className="flex justify-center"><FiFileText className="text-2xl text-black" /></div> 
+                                                    <div className="text-sm text-black">
                                                         Resume</div>
                                                 </div>
                                             </Link>
@@ -36,8 +36,8 @@ const DashNav = () => {
                                             <Link className=" hover:bg-gradient-to-r from-[#EC1B09] to-[#FF9C1A] hover:text-white bg-[#E1E8EF]  " to="/work" >
                                                 <div className=" px-3 py-1" >
                                                     <div className="flex justify-center"><MdOutlineWorkOutline 
-                                                   className="text-2xl" /></div> 
-                                                   <div className="text-sm">
+                                                   className="text-2xl text-black" /></div> 
+                                                   <div className="text-sm text-black">
                                                         Work</div>
                                                 </div>
                                             </Link>
@@ -46,8 +46,8 @@ const DashNav = () => {
                                             <Link className=" hover:bg-gradient-to-r from-[#EC1B09] to-[#FF9C1A] hover:text-white bg-[#E1E8EF]" to="/contact" >
                                                 <div className=" px-3 py-1" >
                                                     <div className="flex justify-center"><BiSolidContact
-                                                     className="text-2xl" /></div> 
-                                                     <div className="text-sm">
+                                                     className="text-2xl text-black" /></div> 
+                                                     <div className="text-sm text-black">
                                                         Contact</div>
                                                 </div>
                                             </Link>

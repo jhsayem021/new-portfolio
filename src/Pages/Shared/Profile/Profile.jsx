@@ -9,24 +9,24 @@ import { MdEmail, MdLocationOn } from "react-icons/md";
 const Profile = () => {
     return (
         <div className='bg-white rounded-2xl lg:m-0 m-2  '>
-            <div className="card lg:w-96 bg-base-100 shadow-xl   ">
+            <div className="card lg:w-96 bg-base-100 shadow-xl  bg-white  ">
                 <figure className="lg:px-10 px-3 pt-10 ">
                     {/* <img src="" className="rounded-xl w-4/5  " /> */}
                     <img src={profileImg} className=" profile-img rounded-xl w-5/6 mx-auto " />
                 </figure>
                 <div className="card-body items-center text-center">
-                    <h2 className="card-title text-3xl">Jahid Hossain Sayem</h2>
+                    <h2 className="card-title text-[#000000] text-3xl">Jahid Hossain Sayem</h2>
                     <p className='text-center text-slate-400 text-xl'>MERN Stack Developer</p>
                     <div className='grid grid-cols-3 gap-4 mt-3'>
                         
-                        <button className="btn btn-square ">
+                        <button className="btn btn-square bg-white">
                             <a href="https://www.linkedin.com/in/jahid-hossain-sayem-4a6209223/" target='blank'><FaLinkedinIn className="text-[#0077B5] text-2xl " ></FaLinkedinIn ></a>
                         </button>
-                        <button className="btn btn-square">
+                        <button className="btn btn-square bg-white">
                             <a href="https://twitter.com/jahid_sayem" target='blank'><FaTwitter className="text-[#1DA1F2] text-2xl" ></FaTwitter></a>
                         </button>
-                        <button className="btn btn-square">
-                            <a href="https://github.com/jhsayem021" target='blank'><FaGithub className="text-[#0B0909] text-2xl" ></FaGithub></a>
+                        <button className="btn btn-square bg-white" >
+                            <a href="https://github.com/jhsayem021" target='blank'><FaGithub className="text-[#0B0909] text-2xl " ></FaGithub></a>
                         </button>
 
                     </div>

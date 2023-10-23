@@ -7,9 +7,12 @@ const Navber = () => {
     <h3 className=" text-2xl text-[24px] font-bold text-[#EC1B09] "><span className='text-black'>Jahid Hossain</span> Sayem </h3>
   </div>
   <div className="flex-none">
+    
+    
     <button className=" p-4 bg-[#EBF2FA] rounded-full border-gray-800 ">
       <FiMoon/>
     </button>
+
   </div>
 </div>
     );

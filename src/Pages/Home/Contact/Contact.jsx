@@ -4,19 +4,18 @@ import { MdEmail } from "react-icons/md";
 const Contact = () => {
     return (
         <div className='lg:mx-10 lg:px-0 px-10 lg:pb-5 pb-5 lg:h-screen'>
-            <h1 className="lg:text-6xl text-4xl font-semibold my-5">Contact</h1>
+            <h1 className="lg:text-6xl text-[#000000] text-4xl font-semibold my-5">Contact</h1>
 
 
             <div className='grid lg:grid-cols-2 gap-4 mt-5'>
                 <div className="card lg:w-96 bg-[#FFEBD1] shadow-xl">
                     <div className=" flex lg:p-10 p-5 items-start ">
                         <div><PiPhoneCallFill className='text-red-600 text-2xl m-1' /></div>
-                        <div><h2 className="card-title text-2xl"> Phone:</h2>
-                            <ul>
+                        <div><h2 className="card-title text-[#000000] text-2xl"> Phone:</h2>
+                            <ul className='text-[#000000]'>
                                 <li>+8801601215306 
                                 </li>
-                                <li>+8801317433324 (Whatsapp)
-                                </li>
+                            
                             </ul>
                         </div>
 
@@ -25,8 +24,8 @@ const Contact = () => {
                 <div className="card lg:w-96 bg-[#F0F3F7] shadow-xl">
                     <div className=" flex lg:p-10 p-5 items-start ">
                         <div><MdEmail className='text-red-600 text-2xl m-1' /></div>
-                        <div><h2 className="card-title text-2xl"> Email:</h2>
-                            <ul>
+                        <div><h2 className="card-title text-[#000000] text-2xl"> Email:</h2>
+                            <ul className='text-[#000000]'>
                                 <li>sayemmetro320@gmail.com
                                 </li>
 
@@ -55,7 +54,7 @@ const Contact = () => {
                                     name="name"
                                     id="name"
                                     autoComplete="given-name"
-                                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 bg-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                 />
                             </div>
                         </div>
@@ -72,7 +71,7 @@ const Contact = () => {
                                     name="email"
                                     id="email"
                                     autoComplete="email"
-                                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900  bg-white  shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                 />
                             </div>
                         </div>
@@ -88,7 +87,7 @@ const Contact = () => {
                                     name="message"
                                     id="message"
                                     rows={4}
-                                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                    className="block w-full rounded-md border-0 px-3.5 py-2  bg-white  text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                     defaultValue={''}
                                 />
                             </div>
@@ -98,7 +97,7 @@ const Contact = () => {
                     <div className="mt-5">
                         <button
                             type="submit"
-                            className="block  rounded-md  px-3.5 py-2.5 text-center  font-semibold border-2 border-[#ED3F0E] "
+                            className="block  rounded-md  px-3.5 py-2.5 text-center text-[#000000]  font-semibold border-2 border-[#ED3F0E] "
                         >
                             Submit
                         </button>
