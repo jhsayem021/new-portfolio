@@ -2,7 +2,7 @@ import React from 'react';
 import { BiCodeAlt } from "react-icons/bi";
 const Home = () => {
     return (
-        <div className='lg:ms-10 lg:m-0 m-3 lg:h-screen'>
+        <div className='lg:ms-10 lg:m-0 m-3 lg:h-fit'>
             <h1 className="lg:text-6xl text-[#000000] text-4xl font-semibold mt-5">About me</h1>
             <div className='mt-5'>
                 <p className='text-xl text-[#000000]'>I'm a MERN stack developer with a passion for

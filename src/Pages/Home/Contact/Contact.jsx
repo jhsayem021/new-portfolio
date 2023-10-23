@@ -3,7 +3,7 @@ import { PiPhoneCallFill } from "react-icons/pi";
 import { MdEmail } from "react-icons/md";
 const Contact = () => {
     return (
-        <div className='lg:mx-10 lg:px-0 px-10 lg:pb-5 pb-5 lg:h-screen'>
+        <div className='lg:mx-10 lg:px-0 px-10 lg:pb-5 pb-5 lg:h-fit'>
             <h1 className="lg:text-6xl text-[#000000] text-4xl font-semibold my-5">Contact</h1>
 
 

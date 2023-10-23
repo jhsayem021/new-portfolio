@@ -18,7 +18,7 @@ const Main = () => {
                
                 <div className="lg:flex ">
                 {/* <input id="my-drawer-2" type="checkbox" className="drawer-toggle" /> */}
-                <div className="h-full rounded-3xl ">
+                <div className="h-fit rounded-3xl ">
                     
                     <Profile></Profile>
                     
@@ -73,7 +73,7 @@ const Main = () => {
                             </div>
                 </div>
                 
-                <div className=" flex  justify-center lg:ms-8  h-full ">
+                <div className=" flex  justify-center lg:ms-8  lg:h-[830px] ">
                     {/* Page content here */}
                         
                         <div  className=" flex flex-col lg:m-0 m-2 h-full bg-white rounded-3xl ">

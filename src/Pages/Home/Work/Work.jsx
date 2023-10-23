@@ -7,7 +7,7 @@ import projectimg4 from '../../../assets/doctors-portal.png'
 
 const Work = () => {
     return (
-        <div className="lg:h-screen" >
+        <div className="lg:h-fit" >
             <h1 className="lg:text-6xl text-[#000000] text-4xl font-semibold mt-5 lg:ms-10 ms-5 ">Portfolio  </h1>
             <div className=' grid lg:grid-cols-2 grid-cols-1 lg:gap-5 gap-5 p-3 lg:mx-8 mt-10 '>
                 <div className="card lg:96 bg-[#FFE3BF] shadow-xl">

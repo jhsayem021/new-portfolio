@@ -2,7 +2,7 @@ import React from 'react';
 import { RiGraduationCapLine } from "react-icons/ri";
 const Resume = () => {
     return (
-        <div className='lg:h-screen '>
+        <div className='lg:h-fit '>
            <h1 className="lg:text-6xl text-[#000000] text-4xl font-semibold mt-5 lg:mx-10 ms-5">Resume  </h1> 
            <div className='grid lg:grid-cols-2 gap-10 lg:mx-10 mx-5'>
             <div className='py-4'>
