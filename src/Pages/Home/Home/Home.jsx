@@ -18,9 +18,9 @@ const Home = () => {
                     <div className="card-body">
                         <h2 className="card-title text-[#000000] "><BiCodeAlt className='text-red-600 ' /> Frontend Development</h2>
                         <p className='text-[#000000]'>I'm an accomplished frontend developer proficient in HTML, CSS, JavaScript, and React,
-                             dedicated to creating engaging and responsive web interfaces.
+                            dedicated to creating engaging and responsive web interfaces.
                         </p>
-                    
+
                     </div>
                 </div>
                 <div className="card lg:w-96 bg-[#F2F7FC] shadow-xl">
@@ -28,7 +28,7 @@ const Home = () => {
                         <h2 className="card-title text-[#000000]"><BiCodeAlt className='text-[#FF9C1A] ' /> Backend Development</h2>
                         <p className='text-[#000000]'>I'm an experienced backend developer skilled in MongoDB, ExpressJS, and NodeJS, specializing in building robust, data-driven web applications with a focus on performance and security.
                         </p>
-                       
+
                     </div>
                 </div>
                 <div className="card lg:w-96 bg-[#F2F7FC] shadow-xl">
@@ -36,10 +36,10 @@ const Home = () => {
                         <h2 className="card-title text-[#000000]"><BiCodeAlt className='text-[#FF9C1A] ' /> Email Frontend Design</h2>
                         <p className='text-[#000000]'>I'm an Email Template Design expert, proficient in XHTML, blending creativity and technical acumen to create engaging, responsive templates for effective email marketing campaigns.
                         </p>
-                      
+
                     </div>
                 </div>
-             
+
             </div>
         </div>
     );

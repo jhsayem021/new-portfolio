@@ -13,9 +13,9 @@ const Contact = () => {
                         <div><PiPhoneCallFill className='text-red-600 text-2xl m-1' /></div>
                         <div><h2 className="card-title text-[#000000] text-2xl"> Phone:</h2>
                             <ul className='text-[#000000]'>
-                                <li>+8801601215306 
+                                <li>+8801601215306
                                 </li>
-                            
+
                             </ul>
                         </div>
 
@@ -40,7 +40,7 @@ const Contact = () => {
 
             <div className="    mt-5 ">
 
-            
+
                 <form action="https://formsubmit.co/sayemmetro320@gmail.com" target='blank' method="POST" className=" bg-[#F0F3F7] shadow-xl rounded-2xl lg:p-10 p-3">
                     <div className="grid grid-cols-1 ">
                         <div>
@@ -49,7 +49,7 @@ const Contact = () => {
                             </label>
                             <div className="mt-2.5">
                                 <input
-                                required
+                                    required
                                     type="text"
                                     name="name"
                                     id="name"
@@ -66,7 +66,7 @@ const Contact = () => {
                             </label>
                             <div className="mt-2.5">
                                 <input
-                                required
+                                    required
                                     type="email"
                                     name="email"
                                     id="email"
@@ -83,7 +83,7 @@ const Contact = () => {
                             </label>
                             <div className="mt-2.5">
                                 <textarea
-                                required 
+                                    required
                                     name="message"
                                     id="message"
                                     rows={4}

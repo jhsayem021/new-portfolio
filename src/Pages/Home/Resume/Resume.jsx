@@ -8,14 +8,14 @@ const Resume = () => {
             <div className='py-4'>
                 <h1 className='flex items-center text-2xl my-5 text-[#000000]'><RiGraduationCapLine className='me-3 text-red-500'/> Education</h1>
                 <div className='bg-[#ffedd5] py-10 px-2 rounded-xl text-[#000000]'>
-                    <p className='text-slate-400'>2016-2023</p>
+                    <p className='text-slate-400'>2016-present</p>
                     <h1 className='text-xl font-semibold'>Computer Science & Engineering </h1>
                     <h1 className='text-xl'> Metropolitan University, Sylhet </h1>
                 </div>
                 <div className='bg-[#ffedd5] mt-5 py-10 px-2 rounded-xl text-[#000000]'>
                     <p className='text-slate-400'>2012-2014</p>
                     <h1 className='text-xl font-semibold'>Higher Secondary School Certificate </h1>
-                    <h1 className='text-xl'>Sylhet Govt. High School, Sylhet  </h1>
+                    <h1 className='text-xl'>Sylhet Govt. College, Sylhet  </h1>
                 </div>
             </div>
             <div className='py-4'>
