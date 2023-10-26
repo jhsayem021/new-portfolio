@@ -55,7 +55,7 @@ const Work = () => {
                 </div>
 
                 <div className="card lg:96 bg-[#FFE3BF] shadow-xl">
-                    <a target="blank" href="https://jhsayem021.github.io/JhonAcademy1/John-25.html">
+                    <a  href="#">
                         <figure className="px-3 pt-3">
                             <img src={projectimg3} className="rounded-xl" />
                         </figure>
