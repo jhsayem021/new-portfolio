@@ -19,15 +19,14 @@ const Profile = () => {
                     <p className='text-center text-slate-500 text-xl'>MERN Stack Developer</p>
                     <div className='grid grid-cols-3 gap-4 mt-3'>
 
-                        <button className="btn btn-square bg-white">
-                            <a href="https://www.linkedin.com/in/jahid-hossain-sayem-4a6209223/" target='blank'><FaLinkedinIn className="text-[#0077B5] text-2xl " ></FaLinkedinIn ></a>
-                        </button>
-                        <button className="btn btn-square bg-white">
-                            <a href="https://twitter.com/jahid_sayem" target='blank'><FaTwitter className="text-[#1DA1F2] text-2xl" ></FaTwitter></a>
-                        </button>
-                        <button className="btn btn-square bg-white" >
-                            <a href="https://github.com/jhsayem021" target='blank'><FaGithub className="text-[#0B0909] text-2xl " ></FaGithub></a>
-                        </button>
+                       
+                            <a href="https://www.linkedin.com/in/jahid-hossain-sayem-4a6209223/" className='btn btn-square bg-white hover:bg-[#0077B5] text-[#0077B5] hover:text-[#FFFFFF]' target='blank'><FaLinkedinIn className=" text-2xl " ></FaLinkedinIn ></a>
+                        
+                        
+                            <a href="https://twitter.com/jahid_sayem" className='btn btn-square bg-white hover:bg-[#1DA1F2] text-[#1DA1F2] hover:text-[#FFFFFF]' target='blank'><FaTwitter className=" text-2xl" ></FaTwitter></a>
+                       
+                        <a href="https://github.com/jhsayem021" className='btn btn-square bg-white hover:bg-[#0B0909] text-[#0B0909] hover:text-[#FFFFFF]' target='blank'><FaGithub className=" text-2xl " ></FaGithub></a>
+                
 
                     </div>
 
@@ -71,7 +70,7 @@ const Profile = () => {
 
                             </li>
                             <li><a href={ExamplePdf}
-                                download="CV-Jh-sayem"
+                                download="Jahid-Hossain-Sayem"
                                 target="_blank"
                                 rel="noreferrer">
                                 <button className="btn bg-gradient-to-r from-[#EC1B09] to-[#FF9C1A] text-white text-sm mt-8"> <BiDownload className='text-xl' /> Download Resume </button>

@@ -12,7 +12,7 @@ const Home = () => {
                     and learn in a dynamic team.
                 </p>
             </div>
-            <h3 className="lg:text-4xl text-2xl font-medium my-4 text-[#000000]">What we do</h3>
+            <h3 className="lg:text-4xl text-2xl font-medium my-4 text-[#000000]">My Expertise</h3>
             <div className='grid lg:grid-cols-2 grid-cols-1 gap-4'>
                 <div className="card lg:w-96 bg-[#FFEBD1] shadow-xl">
                     <div className="card-body">

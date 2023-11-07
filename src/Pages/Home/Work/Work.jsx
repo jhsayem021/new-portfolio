@@ -1,5 +1,4 @@
 import React from 'react';
-import { RiGraduationCapLine } from "react-icons/ri";
 import projectimg1 from '../../../assets/foodmania.png'
 import projectimg2 from '../../../assets/tourism.png'
 import projectimg3 from '../../../assets/email.png'
